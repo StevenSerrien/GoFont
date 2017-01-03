@@ -11,6 +11,8 @@ Often called 'control characters', you would start designing the latin character
 
 Consequently, you would add more letters to those to form the word: _adhesion_. This word is often use to get a feel of how the typeface should be proportioned.
 
+![alt tag](https://github.com/StevenSerrien/GoFont/blob/master/images/handdrawings.jpg)
+
 ###2. Digitize your drawings
 Outline your drawed letters and fill the insides with a black marker. Take a picture with your smartphone and upload it to your computer.
 
