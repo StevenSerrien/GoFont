@@ -15,4 +15,7 @@ Consequently, you would add more letters to those to form the word: _adhesion_. 
 Outline your drawed letters and fill the insides with a black marker. Take a picture with your smartphone and upload it to your computer.
 
 ###3. Choose your software
-Unfortunately, creating typefaces seems to be a Mac business. Most people recommend software like [Glyps](www.glyphsapp.com) or [RoboFont](http://doc.robofont.com/). I cannot use these apps, so I will need to find a Windows alternative.
+Unfortunately, creating typefaces seems to be a Mac business. Most people recommend software like [Glyps](www.glyphsapp.com) or [RoboFont](http://doc.robofont.com/). I cannot use these apps, so I will need to find a Windows alternative. FontLab Studio seems to be a common program to use, although be it with a learning curve.
+
+###4. Use the software
+There seems to be some documentation online. However, the program will require some training. Now draw a few letters that you have drawn with your hand before.
