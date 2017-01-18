@@ -32,4 +32,5 @@ Outline your drawed letters and fill the insides with a black marker. Take a pic
 Unfortunately, creating typefaces seems to be a Mac business. Most people recommend software like [Glyps](www.glyphsapp.com) or [RoboFont](http://doc.robofont.com/). I cannot use these apps, so I will need to find a Windows alternative. FontForge seems to be a common program to use, although be it with a learning curve.
 
 ###5. Use the software
-There seems to be some documentation online. However, the program will require some training. Now draw a few letters that you have drawn with your hand before.
+There seems to be some documentation online. However, the program will require some training. Luckily for us, FontForge is an open-source project, wich means there are alot of people making sure people can use the software as efficient as possible.
+I will be following this guide in order to make my first typeface - [GitHub FontForge guide](http://designwithfontforge.com/en-US/Configuring_FontForge.html)
