@@ -1,0 +1,34 @@
+18December - 
+http://www.creativebloq.com/typography/design-your-own-typeface-8133919
+http://www.creativebloq.com/graphic-design-tips/typography-tutorials-1232719
+Guides gevolgd als inleiding om een font te maken.
+
+3 januari-
+Begonnen met schetsen van de letters 'o','n', 'H' en 'O'. Ook het woord 'adhesion'
+Foto van schets toegevoegd en Github guide aangevuld. Gezocht naar meerdere programma's om een font te gebruiken. Sommige keuzes op Github geplaatst voor Mac en Windows.
+Keuze gemaakt van FontLab Studio te gebruiken, en dit programma geinstalleerd.
+
+
+18 januari
+Boek 'On Web Typography' gelezen en belangrijkste puntjes samengevat op GitHub README.
+Keuze van software aangepast naar FontForge. Deze geinstalleerd en begonnen met de guide te zien op: http://designwithfontforge.com/en-US/Introduction.html
+
+19 januari
+General introduction gekeken van FontForge. Filmpje gemaakt op Crafting Type workshop in het Hyper Island design college in Zweden.
+https://www.youtube.com/watch?time_continue=707&v=_EhwHL1aloI
+
+Verder volgen van tutorial FontForge via
+http://designwithfontforge.com/en-US/Using_the_Fontforge_Drawing_Tools.html
+
+Kennismaking met de tools van FontForge en saven van eerste gemaakte glyph met FontForge
+http://designwithfontforge.com/en-US/Using_the_Fontforge_Drawing_Tools.html
+
+Maken van de letter 'n' met mijn handgetekende typeface als referentie in FontForge. (Testen van tools etc)
+
+
+
+
+
+
+
+
