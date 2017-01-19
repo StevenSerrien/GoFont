@@ -34,3 +34,12 @@ Unfortunately, creating typefaces seems to be a Mac business. Most people recomm
 ###5. Use the software
 There seems to be some documentation online. However, the program will require some training. Luckily for us, FontForge is an open-source project, wich means there are alot of people making sure people can use the software as efficient as possible.
 I will be following this guide in order to make my first typeface - [GitHub FontForge guide](http://designwithfontforge.com/en-US/Configuring_FontForge.html)
+
+Should you have chosen FontForge, I suggest you take a look at this [introductionary video](https://www.youtube.com/watch?v=_EhwHL1aloI)
+This was made at the Crafting Type workshop in the Hyper Island college in Sweden. It goes over the basics of FontForge and tries to make you familiar with its tools.
+
+###6. Start making your glyphs
+So, with that in mind and a little more in-depth tutorial to [FontForge's tools](https://www.youtube.com/watch?v=_EhwHL1aloI)read and understood, we go to the following step. Making our glyphs. And as previously mentioned, we ofcourse start with the letter 'n' with our handdrawn letters as reference. Below you can see a screenshot of me designing my 'n'.
+
+
+
