@@ -39,7 +39,9 @@ Should you have chosen FontForge, I suggest you take a look at this [introductio
 This was made at the Crafting Type workshop in the Hyper Island college in Sweden. It goes over the basics of FontForge and tries to make you familiar with its tools.
 
 ###6. Start making your glyphs
-So, with that in mind and a little more in-depth tutorial to [FontForge's tools](https://www.youtube.com/watch?v=_EhwHL1aloI)read and understood, we go to the following step. Making our glyphs. And as previously mentioned, we ofcourse start with the letter 'n' with our handdrawn letters as reference. Below you can see a screenshot of me designing my 'n'.
+So, with that in mind and a little more in-depth tutorial to [FontForge's tools](https://www.youtube.com/watch?v=_EhwHL1aloI) read and understood, we go to the following step. Making our glyphs. And as previously mentioned, we ofcourse start with the letter 'n' with our handdrawn letters as reference. Below you can see a screenshot of me designing my 'n'.
+
+![alt tag](https://github.com/StevenSerrien/GoFont/blob/master/images/creatin-n-in-fontforge.png)
 
 
 
