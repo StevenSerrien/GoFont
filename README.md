@@ -43,5 +43,13 @@ So, with that in mind and a little more in-depth tutorial to [FontForge's tools]
 
 ![alt tag](https://github.com/StevenSerrien/GoFont/blob/master/images/creatin-n-in-fontforge.png)
 
+Once we created the 'n' and 'o' we can already see how the font works together and start spacing it via the 'Metrics -> New Metrics Window' option.
+
+![alt tag](https://github.com/StevenSerrien/GoFont/blob/master/images/font-metrics-testing.png)
+
+Now that we have a basic understanding of how creating letters work, you can actually create the rest of the typeface by having your 'o' and 'n' as base for your typeface. After that, you can simply save the typeface and install it like any other!
+
+
+
 
 
