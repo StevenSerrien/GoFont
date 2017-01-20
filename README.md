@@ -277,7 +277,7 @@ void keyPressed() {
 }
 ```
 This code in Processing + Fontastic would give us following output in our view.
-![alt tag](https://github.com/StevenSerrien/GoFont/blob/master/images/distorted-font-generation.png)
+![alt tag](https://github.com/StevenSerrien/GoFont/blob/master/images/distorted-font-generation.gif)
 
 ###Now, how do we transfer this logic to inside a browser, making the output of a typeface generated based on the user's input?
 
