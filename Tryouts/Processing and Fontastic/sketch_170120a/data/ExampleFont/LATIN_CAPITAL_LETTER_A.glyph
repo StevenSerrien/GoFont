@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<glyphElement>
+<head>
+<title>LATIN_CAPITAL_LETTER_A</title>
+<unicode>41</unicode>
+<advanceWidth>250.0</advanceWidth>
+<author>Nobody</author>
+<copyright>2004</copyright>
+<fontFamily>temp</fontFamily>
+<fontSubFamily>Regular</fontSubFamily>
+<license>All rights reserved.</license>
+<global/>
+<local/>
+</head>
+<body>
+<contour type="cubic">
+<contourPoint type="on">
+<point2d x="0.0" y="0.0"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="421.57354736328125" y="0.0"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="151.34231567382812" y="371.9840087890625"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="0.0" y="935.080810546875"/>
+</contourPoint>
+</contour>
+<contour type="cubic">
+<contourPoint type="on">
+<point2d x="0.0" y="0.0"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="421.57354736328125" y="0.0"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="151.34231567382812" y="371.9840087890625"/>
+</contourPoint>
+<contourPoint type="on">
+<point2d x="0.0" y="935.080810546875"/>
+</contourPoint>
+</contour>
+</body>
+</glyphElement>
