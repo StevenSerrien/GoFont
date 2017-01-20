@@ -75,7 +75,8 @@ f.getGlyph('A').addContour(points);
 f.buildFont();
 f.cleanup();
 ```
-Running this will create a webfont + a HTML preview file.
+Running this will create a webfont + a HTML preview file. Like this one below. As you can see, only the 'A'-glyph has been generated.
+![alt tag](https://github.com/StevenSerrien/GoFont/blob/master/images/fontastic-html-preview.png)
 
 
 
