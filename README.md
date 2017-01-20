@@ -49,7 +49,33 @@ Once we created the 'n' and 'o' we can already see how the font works together a
 
 Now that we have a basic understanding of how creating letters work, you can actually create the rest of the typeface by having your 'o' and 'n' as base for your typeface. After that, you can simply save the typeface and install it like any other!
 
+## What tools can we use to randomize a typeface?
+### Processing + Fontastic (library)
+Next up, I found a library that indeed does randomize typeface using the program. The description of Processing goes as followed on their website: "Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts." Now, personally I have never used it and I doubt it could be used in an browser, but it was worth a shot.
 
+To start, you should go ahead and download [Processing 3](https://processing.org/download/). After you've downloaded Processing, it's time to download the library we are using, called: 'Fontastic' wich can be downloaded [here](http://code.andreaskoller.com/libraries/fontastic/). You then just copy the folder 'Fontastic' to your Documents/Processing/Libraries, and you should be good to go.
+Start up Processing 3 and import the 'Fontastic' library (Sketch -> Import Library)
+
+#### First code using Processing + Fontastic
+```java
+import fontastic.*;
+
+Fontastic f = new Fontastic(this, "ExampleFont");
+
+f.setAuthor("Steven Serrien");
+f.setAdvanceWidth(250);
+PVector[] points = new PVector[4];
+points[0] = new PVector(0, 0);
+points[1] = new PVector(random(512), 0);
+points[2] = new PVector(random(512), random(1024));
+points[3] = new PVector(0, random(1024));
+
+f.addGlyph('A'). addContour(points);
+f.getGlyph('A').addContour(points);
+f.buildFont();
+f.cleanup();
+```
+Running this will create a webfont + a HTML preview file.
 
 
 
