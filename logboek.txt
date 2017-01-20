@@ -25,6 +25,14 @@ http://designwithfontforge.com/en-US/Using_the_Fontforge_Drawing_Tools.html
 
 Maken van de letter 'n' met mijn handgetekende typeface als referentie in FontForge. (Testen van tools etc)
 
+20 januari
+Afmaken van de letter 'o' met mijn handgetekende typeface als referentie in FontForge.
+Handleiding aangevuld.
+
+Research doen naar hoe je een font kan genereren op basis van code
+http://thenextweb.com/dd/2015/07/27/we-have-a-code/
+https://github.com/be5invis/Iosevka
+http://www.creativebloq.com/netmag/how-create-web-fonts-using-code-11410339
 
 
 
