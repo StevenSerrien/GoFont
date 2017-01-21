@@ -1,103 +1,45 @@
-// All Examples Written by Casey Reas and Ben Fry
+// Global variables
+float radius = 50.0;
+int X, Y;
+int nX, nY;
+int delay = 16;
 
-// unless otherwise stated.
+// Setup the Processing Canvas
+void setup(){
+  size( 200, 200 );
+  strokeWeight( 10 );
+  frameRate( 15 );
+  X = width / 2;
+  Y = height / 2;
+  nX = X;
+  nY = Y;
+}
 
-size(1000, 300);
+// Main draw loop
+void draw(){
 
-background(0);
+  radius = radius + sin( frameCount / 4 );
 
+  // Track circle to new destination
+  X+=(nX-X)/delay;
+  Y+=(nY-Y)/delay;
 
+  // Fill canvas grey
+  background( 100 );
 
-// Load the font. Fonts are located within the
+  // Set fill-color to blue
+  fill( 0, 121, 184 );
 
-// main Processing directory/folder and they
+  // Set stroke-color white
+  stroke(255);
 
-// must be placed within the data directory
-
-// of your sketch for them to load
-
-PFont fontA = loadFont("Lato-Regular");
-
-textFont(fontA, 36);
-
-textAlign(CENTER);
-
-
-
-// Set the gray value of the letters
-
-fill(255);
-
-
-
-// Set the left and top margin
-
-int margin = 6;
-
-int gap = 30;
-
-translate(margin*1.5, margin*2);
-
+  // Draw circle
+  ellipse( X, Y, radius, radius );
+}
 
 
-// Create a matrix of letterforms
-
-int counter = 0;
-
-for(int i=0; i<margin; i++) {
-
-  for(int j=0; j<margin; j++) {
-
-    char letter;
-
-
-
-    // Select the letter
-
-    int count = 65+(i*margin)+j;
-
-    if(count <= 90) {
-
-      letter = char(65+counter);
-
-      if(letter == 'A' || letter == 'E' || letter == 'I' ||
-
-         letter == 'O' || letter == 'U') {
-
-           fill(204, 204, 0);
-
-      } else {
-
-        fill(255);
-
-      }
-
-    } else {
-
-      fill(153);
-
-      letter = char(48+counter);
-
-    }
-
-
-
-    // Draw the letter to the screen
-
-    text(letter, 15+j*gap, 20+i*gap);
-
-
-
-    // Increment the counter
-
-    counter++;
-
-    if(counter >= 26) {
-
-      counter = 0;
-
-    }
-
-  }
-
+// Set circle's next destination
+void mouseMoved(){
+  nX = mouseX;
+  nY = mouseY;
 }
