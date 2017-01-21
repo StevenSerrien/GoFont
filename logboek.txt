@@ -47,6 +47,13 @@ Proberen een web project aan te maken met processing.js en onze code van daarnet
 
 Lijkt geen oplossing te zijn voor de fout die de geïmporteerde processing.js file brengt. Ik kan dus ook niet verder met testen van processing.js in een browser venster...
 
+- Error is verholpen. Echter kan ik geen Fontastic library inladen via Processing.js, omdat Fontastic nog steeds gecodeerd is in Java.
+Zoeken van oplossing.
+
+Terecht gekomen bij P5.js, een afgeleide van processing. Echter geen manier om fonts te bewerken?
+http://creative-coding.decontextualize.com/text-and-type/
+https://p5js.org/get-started/
+
 
 
 
