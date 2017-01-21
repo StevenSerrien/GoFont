@@ -34,6 +34,20 @@ http://thenextweb.com/dd/2015/07/27/we-have-a-code/
 https://github.com/be5invis/Iosevka
 http://www.creativebloq.com/netmag/how-create-web-fonts-using-code-11410339
 
+Spelen met Processing 3 + library Fontastic
+Een font gereneren op basis van bestaand font, die gedistort wordt als je met de muis beweegt.
+
+21 Januari
+
+Is er een manier Processing in een browserwindow te doen werken?
+Er bestaan Processing.js, maar hoe laad ik externe libraries in (zoals fontastic)?
+
+Proberen een web project aan te maken met processing.js en onze code van daarnet. Kijken of dit in een HTML5 canvas zou lukken.
+<script src="scripts/processing.js"></script> zorgt voor volgende error: PFont is not defined. Deze lijn importeert slechts processing.js, waar aan ligt dit?
+
+Lijkt geen oplossing te zijn voor de fout die de geïmporteerde processing.js file brengt. Ik kan dus ook niet verder met testen van processing.js in een browser venster...
+
+
 
 
 
