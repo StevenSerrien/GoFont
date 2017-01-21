@@ -40,7 +40,7 @@ void setup() {
   RG.init(this);
   
   // load the initial font
-  font = new RFont("Lato-Regular.ttf",150);
+  font = new RFont("FreeSans.ttf",150);
 
   // get the points on the curve's shape
   // set style and segment resultion
@@ -112,7 +112,7 @@ void updateFont() {
 
   RCommand.setSegmentLength(mouseX / 2f);
 
-  float maxOffset = 20; // seems to be the maximum value for setSegmentOffset with the font FreeSans
+  float maxOffset = 130; // seems to be the maximum value for setSegmentOffset with the font FreeSans
   float speed = 40;
   float timer = (millis()/speed) % maxOffset;
   float offset = (sin(timer / maxOffset * TWO_PI) + 1) * maxOffset / 2; // this is an sin oscillator between 0 and 100
@@ -193,3 +193,4 @@ void keyPressed() {
   }
   
 }
+

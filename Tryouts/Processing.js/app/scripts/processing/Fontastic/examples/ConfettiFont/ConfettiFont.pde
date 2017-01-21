@@ -1,13 +1,13 @@
- /**
+/**
  * Fontastic
  * A font file writer for Processing.
  * http://code.andreaskoller.com/libraries/fontastic
  *
- * Example: DistortFont
+ * Example: ConfettiFont
  *
- * How to create character shapes based on another font.
- * - Press 's' to save ttf and woff files
- *   in the current state of distortion
+ * How to create characters made of multiple shapes
+ * based on outlines of another font.
+ * - Press 's' to save ttf and woff files (Might take a while! Be patient.)
  *
  * Based on the example P_3_2_1_01.pde by Generative Gestaltung
  * http://www.generative-gestaltung.de/P_3_2_1_01
@@ -38,13 +38,13 @@ void setup() {
 
   // always initialize the library in setup
   RG.init(this);
-  
+
   // load the initial font
-  font = new RFont("Lato-Regular.ttf",150);
+  font = new RFont("FreeSans.ttf",150);
 
   // get the points on the curve's shape
   // set style and segment resultion
-  RCommand.setSegmentLength(200);
+  RCommand.setSegmentLength(10);
   RCommand.setSegmentator(RCommand.UNIFORMLENGTH);
 
   initFont();
@@ -60,10 +60,7 @@ void draw() {
 
   background(255);
 
-  strokeWeight(2);
-  textSize(25);
-
-  int numberOfLetters = 10;
+  int numberOfLetters = 10; // the number of letters to display
   for (int i=0; i<numberOfLetters; i++) {
     pushMatrix();
     translate(width/2, height/3);
@@ -76,7 +73,7 @@ void draw() {
     popMatrix();
   }
 
-  if (fontBuilt) { // if the ttf has already been built, display it
+  if (fontBuilt) {
     pushMatrix();
     textFont(myFont);
     textAlign(CENTER, CENTER);
@@ -90,17 +87,18 @@ void draw() {
 
 void initFont() {
 
-  f = new Fontastic(this, "Distort" + nf(version,4));
+  f = new Fontastic(this, "Confetti" + nf(version,4)); // create new Fontastic object
 
-  for (char c : Fontastic.alphabet) {
-    f.addGlyph(c);
+  // add letters to the font, without adding glyph shapes
+  for (char c : Fontastic.alphabet) {   
+    f.addGlyph(c);                      // add all uppercase letters from the alphabet 
   }
 
   for (char c : Fontastic.alphabetLc) {
-    f.addGlyph(c);
+    f.addGlyph(c);                      // add all lowercase letters from the alphabet
   }
 
-//  f.setFontFamilyName("Confetti");  // if font has same name, it won't be loaded by Processing in runtime
+//  f.setFontFamilyName("Confetti");  // if font has same name, it won't be loaded twice by Processing during runtime
   f.setAuthor("Andreas Koller");
   f.setVersion("0.1");
   f.setAdvanceWidth(int(charWidth * 1.1));
@@ -108,36 +106,35 @@ void initFont() {
 }
 
 void updateFont() {
-
-
-  RCommand.setSegmentLength(mouseX / 2f);
-
-  float maxOffset = 20; // seems to be the maximum value for setSegmentOffset with the font FreeSans
-  float speed = 40;
-  float timer = (millis()/speed) % maxOffset;
-  float offset = (sin(timer / maxOffset * TWO_PI) + 1) * maxOffset / 2; // this is an sin oscillator between 0 and 100
-  RCommand.setSegmentOffset(offset);
   
   for (char c : Fontastic.alphabet) {
 
     RShape shp = font.toShape(c);
+    RPoint[] pnts = shp.getPoints();
 
-    RPoint[] pnts = new RPoint[0];
-    try {    
-      pnts = shp.getPoints();
-    }
-    catch (NullPointerException e) {
-      println("Problem with setSegmentOffset at Character "+c);
-    }
-
-    PVector[] points = new PVector[0];
+    f.getGlyph(c).clearContours();
 
     for (int i=0; i<pnts.length-1; i++) {
+
       RPoint p = pnts[i];
-      points = (PVector[]) append(points, new PVector(p.x * 5, -p.y * 5));   
+      PVector[] points = new PVector[4];
+
+      float circleSize = 20;
+
+      int resolution = 6; // the resolution of a confetti circle
+      points = new PVector[resolution];
+      for (int j=0; j<resolution; j++) {
+        float angle = TWO_PI/(resolution * 1f) * j;
+        float x = p.x * 5 + sin(angle) * circleSize;
+        float y = -p.y * 5 +  cos(angle) * circleSize;
+        x += (mouseX - width/2f) / width/2f * noise(i+millis()/1000f) * 2000;
+        y -= (mouseY - height/2f) / height/2f * noise(i * 2+millis()/1000f) * 2000;
+        points[j] = new PVector(x, y);
+      }
+
+      f.getGlyph(c).addContour(points);
+
     }
-    f.getGlyph(c).clearContours();
-    f.getGlyph(c).addContour(points);
   }
 
 }
@@ -158,6 +155,9 @@ void createFont() {
 
 }
 
+
+// A function to preview a glyph in Processing
+
 void renderGlyphSolid(char c) {
     
   FContour[] contours = f.getGlyph(c).getContoursArray();
@@ -168,12 +168,14 @@ void renderGlyphSolid(char c) {
 
     if (points.length > 0) { //just to be sure    
       // Draw the solid shape in Processing
-      beginShape();
-      vertex(points[0].x, -points[0].y);
+      beginShape();      
       for (int i=0; i<points.length; i++) {
         FPoint p1 = points[i];
         FPoint p2 = points[(i+1)%points.length];
         if (p1.hasControlPoint2() && p2.hasControlPoint1()) {
+          if (i == 0) { 
+            vertex(points[0].x, -points[0].y);
+          }
           bezierVertex(p1.controlPoint2.x, -p1.controlPoint2.y, p2.controlPoint1.x, -p2.controlPoint1.y, p2.x, -p2.y);
         }
         else {
@@ -193,3 +195,4 @@ void keyPressed() {
   }
   
 }
+
