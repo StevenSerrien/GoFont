@@ -279,5 +279,34 @@ void keyPressed() {
 This code in Processing + Fontastic would give us following output in our view.
 ![alt tag](https://github.com/StevenSerrien/GoFont/blob/master/images/distorted-font-generation.gif)
 
-###Now, how do we transfer this logic to inside a browser, making the output of a typeface generated based on the user's input?
+####Now, how do we transfer this logic to inside a browser, making the output of a typeface generated based on the user's input?
+It turns out there is a port called 'Processing.js' wich ports all java-code you write inside a example.pde to javascript code so we can use it in a browser window using the HTML5 canvas. 
+
+### Processing.js ( A javascript port for Processing )
+The steps to setting up Processing.js can be found here [tutorial](http://processingjs.org/articles/p5QuickStart.html)
+Following the steps, we can form following output inside a html file.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hello Web - Processing.js Test</title>
+<script src="processing.js"></script>
+</head>
+<body>
+<h1>Processing.js Test</h1>
+<p>This is my first Processing.js web-based sketch:</p>
+<canvas data-processing-sources="hello-web.pde"></canvas>
+</body>
+</html>
+```
+
+In the .pde file you would then write whatever code you would in a normal Processing java file. __However__, we get an issue here since we are actually importing Fontastic as a java library. Turns out Processing.js does port our PDE file, but __does not__ port our libraries... This conclusion can be found [here](http://stackoverflow.com/questions/7681540/using-processing-libraries-in-processing-js) and [also here](http://stackoverflow.com/questions/7742617/what-is-it-that-stops-processings-libraries-from-being-used-to-processing-js)
+
+Seems like we need to find a way around this, maybe try to achieve what we want without any libraries?
+
+
+
+
+
 
