@@ -305,6 +305,22 @@ In the .pde file you would then write whatever code you would in a normal Proces
 
 Seems like we need to find a way around this, maybe try to achieve what we want without any libraries?
 
+### Type + Code : Processing For Designers
+![alt tag](https://github.com/StevenSerrien/GoFont/blob/master/images/type_code_book.jpg)
+
+After some research, I stumbled upon a book called: "Type + Code: Processing for Designers" by Yeohyun Ahn and Viviana Cordova.
+The whole e-book can be found here: [e-book-link](https://issuu.com/jpagecorrigan/docs/type-code_yeohyun-ahn).
+
+The book displays some wonderful typography designs and even has a few pages with code included.
+Unfortunately, when I tried to replicate the code that was stated in the book, it did nothing.
+First of all, the book dates from 2009 wich means some syntax was deprecated and I had to figure what new syntax there was for that code within the examples. Secondly, when I DID replace all syntax, the code just brought up an empty canvas and did nothing.. Pity.
+This was exactly what I was looking for, and combined with Fontastic I could generate a new type of font to then save.
+
+Maybe I should try to go back to the Processing version of the book's published date?
+
+
+
+
 
 
 
