@@ -54,6 +54,16 @@ Terecht gekomen bij P5.js, een afgeleide van processing. Echter geen manier om f
 http://creative-coding.decontextualize.com/text-and-type/
 https://p5js.org/get-started/
 
+22 januari
+
+Type + code boek gelezen + voorbeelden getest.
+Code werkte aanvankelijk niet door verouderde syntax uit 2009.
+Ik heb dan de codesyntax veranderd naar syntax die in de laatste versie van Processing en Geomerative (library) wel zou moeten werken. Ik kreeg geen errors meer, maar ook geen resultaat zoals ik normaal zou moeten krijgen zoals in het boek staat afgebeeld.
+
+Ik heb dan geprobeerd de versie van Processing + Geomerative te downloaden die van toepassing was in 2009 ( tijd van het boek ), maar dit werkte nog steeds niet. Na opzoeken, weet ik nog steeds niet waarom..
+
+
+
 
 
 
