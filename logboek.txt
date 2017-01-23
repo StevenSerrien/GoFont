@@ -62,6 +62,16 @@ Ik heb dan de codesyntax veranderd naar syntax die in de laatste versie van Proc
 
 Ik heb dan geprobeerd de versie van Processing + Geomerative te downloaden die van toepassing was in 2009 ( tijd van het boek ), maar dit werkte nog steeds niet. Na opzoeken, weet ik nog steeds niet waarom..
 
+23 januari
+
+Lang liggen uitzoeken waarom het voorbeeld met Caligraphy niet werkt, ookal is de code juist.
+Oud voorbeeld geüpload dat verloren was.
+Code proberen veranderen in fontastic + geomerative. http://www.ricardmarxer.com/geomerative/
+Presentatie maken.
+
+
+
+
 
 
 
