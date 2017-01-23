@@ -472,13 +472,95 @@ void initialize(){
 }
 ```
 
+### Sources
+http://www.creativebloq.com/graphic-design-tips/typography-tutorials-1232719
+http://www.creativebloq.com/typography/design-your-own-typeface-8133919
+http://www.vandelaydesign.com/how-to-create-a-font/
+https://design.tutsplus.com/tutorials/how-to-create-a-font-using-fontself-and-fontforge--cms-25923
+http://www.digitaltutors.com/tutorial/2296-Creating-a-Custom-Typeface-in-Illustrator-and-FontForge
+https://github.com/be5invis/Iosevka
+https://www.youtube.com/watch?v=AKi0fmgBoEY
+https://www.youtube.com/watch?v=yI-7e4nRNus
+https://www.youtube.com/watch?v=C234uNmTJBU
+http://doc.robofont.com/
+http://www.fontlab.com/font-editor/fontlab-studio/
+http://designwithfontforge.com/en-US/Configuring_FontForge.html
+https://design.tutsplus.com/tutorials/how-to-create-a-font-in-adobe-illustrator--cms-25921
+https://www.youtube.com/watch?v=_EhwHL1aloI
+https://processing.org/download/
+http://processingjs.org/articles/p5QuickStart.html
+http://stackoverflow.com/questions/7681540/using-processing-libraries-in-processing-js
+http://stackoverflow.com/questions/7742617/what-is-it-that-stops-processings-libraries-from-being-used-to-processing-js
+https://issuu.com/jpagecorrigan/docs/type-code_yeohyun-ahn
+
+### Logbook ( Dutch )
+18December - 
+http://www.creativebloq.com/typography/design-your-own-typeface-8133919
+http://www.creativebloq.com/graphic-design-tips/typography-tutorials-1232719
+Guides gevolgd als inleiding om een font te maken.
+
+3 januari-
+Begonnen met schetsen van de letters 'o','n', 'H' en 'O'. Ook het woord 'adhesion'
+Foto van schets toegevoegd en Github guide aangevuld. Gezocht naar meerdere programma's om een font te gebruiken. Sommige keuzes op Github geplaatst voor Mac en Windows.
+Keuze gemaakt van FontLab Studio te gebruiken, en dit programma geinstalleerd.
 
 
+18 januari
+Boek 'On Web Typography' gelezen en belangrijkste puntjes samengevat op GitHub README.
+Keuze van software aangepast naar FontForge. Deze geinstalleerd en begonnen met de guide te zien op: http://designwithfontforge.com/en-US/Introduction.html
 
+19 januari
+General introduction gekeken van FontForge. Filmpje gemaakt op Crafting Type workshop in het Hyper Island design college in Zweden.
+https://www.youtube.com/watch?time_continue=707&v=_EhwHL1aloI
 
+Verder volgen van tutorial FontForge via
+http://designwithfontforge.com/en-US/Using_the_Fontforge_Drawing_Tools.html
 
+Kennismaking met de tools van FontForge en saven van eerste gemaakte glyph met FontForge
+http://designwithfontforge.com/en-US/Using_the_Fontforge_Drawing_Tools.html
 
+Maken van de letter 'n' met mijn handgetekende typeface als referentie in FontForge. (Testen van tools etc)
 
+20 januari
+Afmaken van de letter 'o' met mijn handgetekende typeface als referentie in FontForge.
+Handleiding aangevuld.
 
+Research doen naar hoe je een font kan genereren op basis van code
+http://thenextweb.com/dd/2015/07/27/we-have-a-code/
+https://github.com/be5invis/Iosevka
+http://www.creativebloq.com/netmag/how-create-web-fonts-using-code-11410339
 
+Spelen met Processing 3 + library Fontastic
+Een font gereneren op basis van bestaand font, die gedistort wordt als je met de muis beweegt.
 
+21 Januari
+
+Is er een manier Processing in een browserwindow te doen werken?
+Er bestaan Processing.js, maar hoe laad ik externe libraries in (zoals fontastic)?
+
+Proberen een web project aan te maken met processing.js en onze code van daarnet. Kijken of dit in een HTML5 canvas zou lukken.
+<script src="scripts/processing.js"></script> zorgt voor volgende error: PFont is not defined. Deze lijn importeert slechts processing.js, waar aan ligt dit?
+
+Lijkt geen oplossing te zijn voor de fout die de geïmporteerde processing.js file brengt. Ik kan dus ook niet verder met testen van processing.js in een browser venster...
+
+- Error is verholpen. Echter kan ik geen Fontastic library inladen via Processing.js, omdat Fontastic nog steeds gecodeerd is in Java.
+Zoeken van oplossing.
+
+Terecht gekomen bij P5.js, een afgeleide van processing. Echter geen manier om fonts te bewerken?
+http://creative-coding.decontextualize.com/text-and-type/
+https://p5js.org/get-started/
+
+22 januari
+
+Type + code boek gelezen + voorbeelden getest.
+Code werkte aanvankelijk niet door verouderde syntax uit 2009.
+Ik heb dan de codesyntax veranderd naar syntax die in de laatste versie van Processing en Geomerative (library) wel zou moeten werken. Ik kreeg geen errors meer, maar ook geen resultaat zoals ik normaal zou moeten krijgen zoals in het boek staat afgebeeld.
+
+Ik heb dan geprobeerd de versie van Processing + Geomerative te downloaden die van toepassing was in 2009 ( tijd van het boek ), maar dit werkte nog steeds niet. Na opzoeken, weet ik nog steeds niet waarom..
+
+23 januari
+
+Lang liggen uitzoeken waarom het voorbeeld met Caligraphy niet werkt, ookal is de code juist.
+Oud voorbeeld geüpload dat verloren was.
+Code proberen veranderen in fontastic + geomerative. http://www.ricardmarxer.com/geomerative/
+Presentatie maken.
