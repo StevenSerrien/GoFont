@@ -472,31 +472,38 @@ void initialize(){
 }
 ```
 
+### Presentation
+http://slides.com/stevenserrien/deck-1/fullscreen#/
+
 ### Sources
 http://www.creativebloq.com/graphic-design-tips/typography-tutorials-1232719
+<br />
 http://www.creativebloq.com/typography/design-your-own-typeface-8133919
+<br />
 http://www.vandelaydesign.com/how-to-create-a-font/
-https://design.tutsplus.com/tutorials/how-to-create-a-font-using-fontself-and-fontforge--cms-25923
-http://www.digitaltutors.com/tutorial/2296-Creating-a-Custom-Typeface-in-Illustrator-and-FontForge
-https://github.com/be5invis/Iosevka
-https://www.youtube.com/watch?v=AKi0fmgBoEY
-https://www.youtube.com/watch?v=yI-7e4nRNus
-https://www.youtube.com/watch?v=C234uNmTJBU
-http://doc.robofont.com/
-http://www.fontlab.com/font-editor/fontlab-studio/
-http://designwithfontforge.com/en-US/Configuring_FontForge.html
-https://design.tutsplus.com/tutorials/how-to-create-a-font-in-adobe-illustrator--cms-25921
-https://www.youtube.com/watch?v=_EhwHL1aloI
-https://processing.org/download/
-http://processingjs.org/articles/p5QuickStart.html
-http://stackoverflow.com/questions/7681540/using-processing-libraries-in-processing-js
-http://stackoverflow.com/questions/7742617/what-is-it-that-stops-processings-libraries-from-being-used-to-processing-js
-https://issuu.com/jpagecorrigan/docs/type-code_yeohyun-ahn
+<br />
+https://design.tutsplus.com/tutorials/how-to-create-a-font-using-fontself-and-fontforge--cms-25923<br />
+http://www.digitaltutors.com/tutorial/2296-Creating-a-Custom-Typeface-in-Illustrator-and-FontForge<br />
+https://github.com/be5invis/Iosevka<br />
+https://www.youtube.com/watch?v=AKi0fmgBoEY<br />
+https://www.youtube.com/watch?v=yI-7e4nRNus<br />
+https://www.youtube.com/watch?v=C234uNmTJBU<br />
+http://doc.robofont.com/<br />
+http://www.fontlab.com/font-editor/fontlab-studio/<br />
+http://designwithfontforge.com/en-US/Configuring_FontForge.html<br />
+https://design.tutsplus.com/tutorials/how-to-create-a-font-in-adobe-illustrator--cms-25921<br />
+https://www.youtube.com/watch?v=_EhwHL1aloI<br />
+https://processing.org/download/<br />
+http://processingjs.org/articles/p5QuickStart.html<br />
+http://stackoverflow.com/questions/7681540/using-processing-libraries-in-processing-js<br />
+http://stackoverflow.com/questions/7742617/what-is-it-that-stops-processings-libraries-from-being-used-to-processing-js<br />
+https://issuu.com/jpagecorrigan/docs/type-code_yeohyun-ahn<br />
+https://p5js.org/<br />
 
 ### Logbook ( Dutch )
 18December - 
-http://www.creativebloq.com/typography/design-your-own-typeface-8133919
-http://www.creativebloq.com/graphic-design-tips/typography-tutorials-1232719
+http://www.creativebloq.com/typography/design-your-own-typeface-8133919<br />
+http://www.creativebloq.com/graphic-design-tips/typography-tutorials-1232719<br />
 Guides gevolgd als inleiding om een font te maken.
 
 3 januari-
@@ -511,13 +518,13 @@ Keuze van software aangepast naar FontForge. Deze geinstalleerd en begonnen met 
 
 19 januari
 General introduction gekeken van FontForge. Filmpje gemaakt op Crafting Type workshop in het Hyper Island design college in Zweden.
-https://www.youtube.com/watch?time_continue=707&v=_EhwHL1aloI
+https://www.youtube.com/watch?time_continue=707&v=_EhwHL1aloI<br />
 
 Verder volgen van tutorial FontForge via
-http://designwithfontforge.com/en-US/Using_the_Fontforge_Drawing_Tools.html
+http://designwithfontforge.com/en-US/Using_the_Fontforge_Drawing_Tools.html<br />
 
 Kennismaking met de tools van FontForge en saven van eerste gemaakte glyph met FontForge
-http://designwithfontforge.com/en-US/Using_the_Fontforge_Drawing_Tools.html
+http://designwithfontforge.com/en-US/Using_the_Fontforge_Drawing_Tools.html<br />
 
 Maken van de letter 'n' met mijn handgetekende typeface als referentie in FontForge. (Testen van tools etc)
 
@@ -526,9 +533,9 @@ Afmaken van de letter 'o' met mijn handgetekende typeface als referentie in Font
 Handleiding aangevuld.
 
 Research doen naar hoe je een font kan genereren op basis van code
-http://thenextweb.com/dd/2015/07/27/we-have-a-code/
-https://github.com/be5invis/Iosevka
-http://www.creativebloq.com/netmag/how-create-web-fonts-using-code-11410339
+http://thenextweb.com/dd/2015/07/27/we-have-a-code/<br />
+https://github.com/be5invis/Iosevka<br />
+http://www.creativebloq.com/netmag/how-create-web-fonts-using-code-11410339<br />
 
 Spelen met Processing 3 + library Fontastic
 Een font gereneren op basis van bestaand font, die gedistort wordt als je met de muis beweegt.
@@ -547,8 +554,8 @@ Lijkt geen oplossing te zijn voor de fout die de geïmporteerde processing.js fi
 Zoeken van oplossing.
 
 Terecht gekomen bij P5.js, een afgeleide van processing. Echter geen manier om fonts te bewerken?
-http://creative-coding.decontextualize.com/text-and-type/
-https://p5js.org/get-started/
+http://creative-coding.decontextualize.com/text-and-type/<br />
+https://p5js.org/get-started/<br />
 
 22 januari
 
@@ -562,5 +569,5 @@ Ik heb dan geprobeerd de versie van Processing + Geomerative te downloaden die v
 
 Lang liggen uitzoeken waarom het voorbeeld met Caligraphy niet werkt, ookal is de code juist.
 Oud voorbeeld geüpload dat verloren was.
-Code proberen veranderen in fontastic + geomerative. http://www.ricardmarxer.com/geomerative/
+Code proberen veranderen in fontastic + geomerative. http://www.ricardmarxer.com/geomerative/<br />
 Presentatie maken.
